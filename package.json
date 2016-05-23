@@ -1,10 +1,24 @@
 {
-  "name": "shem-studios",
+  "name": "shemstudios",
   "private": true,
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
-  }
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.1.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A01393463/shem-studios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A01393463/shem-studios/issues"
+  },
+  "homepage": "https://github.com/A01393463/shem-studios#readme",
+  "description": ""
 }
