@@ -6,6 +6,22 @@ import React from 'react';
 export const MainLayout = ({content}) => (
   // className instead of class because class means something else in JS
   <div className="main-layout">
-    {content}
+    <header>
+      <h2>Shem Studios</h2>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+	  <li><a href="/studio">Studio</a></li>
+	  <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      {content}
+    </main>
+    <footer>
+      <h2>Footer</h2>
+    </footer>
   </div>
 )
