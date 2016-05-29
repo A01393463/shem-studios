@@ -3,18 +3,18 @@ import {mount} from 'react-mounter';
 
 // import MainLayout component
 import {MainLayout} from './layouts/MainLayout.jsx';
-// import App component
-import App from './App.jsx';
-import About from './About.jsx';
-import Studio from './Studio.jsx';
-import Contact from './Contact.jsx';
+// import HomeWrapper component
+import HomeWrapper from './pages/home/HomeWrapper.jsx';
+import About from './pages/about/About.jsx';
+import Studio from './pages/studio/Studio.jsx';
+import Contact from './pages/contact/Contact.jsx';
 
 FlowRouter.route('/', {
   // every route needs an action
   action() {
     // passes App as {content} into MainLayout
     mount(MainLayout, {
-      content: (<App />)
+      content: (<HomeWrapper />)
     })
   }
 });

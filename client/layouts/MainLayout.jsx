@@ -7,8 +7,8 @@ export const MainLayout = ({content}) => (
   // className instead of class because class means something else in JS
   <div className="main-layout">
     <header>
-      <h2>Shem Studios</h2>
       <nav>
+        <h2>Shem Studios</h2>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
