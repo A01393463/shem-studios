@@ -1,5 +1,43 @@
 @import '{reywood:bootstrap3-sass}/bootstrap';
+@import '{}/client/styles/imports/test';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 
 body {
-  background: #EEE;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #EEEEEE;
+  background: #222222;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.billboard {
+  width: 100%;
+  height: 64rem;
+  background-image: url('/images/clarinets.jpg');
+  background-size: cover;
+  border: 1px solid #222222;
+  
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+.flex-container {
+  display: -webkit-flex; /*safari*/
+  display: flex;
+  -webkit-flex-flow: column wrap; /*safari*/
+  flex-flow: column wrap;
+  -webkit-justify-content: center; /*safari*/
+  justify-content: center;
+}
+
+footer {
+  background: #111111;
+  margin-top: 40px;
+  padding: 20px;
 }
