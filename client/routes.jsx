@@ -24,7 +24,7 @@ FlowRouter.route('/about', {
     mount(MainLayout, {
       content: (<About />)
     })
-  }
+  },
 });
 
 FlowRouter.route('/studio', {

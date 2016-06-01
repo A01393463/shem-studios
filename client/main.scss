@@ -18,13 +18,21 @@ body {
 .billboard {
   width: 100%;
   height: 64rem;
-  background-image: url('/images/clarinets.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   border: 1px solid #222222;
   
   h1 {
     font-size: 5rem;
   }
+}
+
+.home {
+  background-image: url('/images/clarinets.jpg');
+}
+
+.about {
+  background-image: url('/images/headphones.jpg');
 }
 
 .flex-container {
