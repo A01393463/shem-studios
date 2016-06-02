@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   color: #EEEEEE;
-  background: #222222;
+  background: #000000;
 }
 
 .navbar {
@@ -28,11 +28,19 @@ body {
 }
 
 .home {
-  background-image: url('/images/clarinets.jpg');
+  //background-image: url('/images/clarinets.jpg');
 }
 
 .about {
   background-image: url('/images/headphones.jpg');
+}
+
+.studio {
+  background-image: url('/images/headphones.jpg');
+}
+
+.contact {
+  //background-image: url('/images/headphones.jpg');
 }
 
 .flex-container {

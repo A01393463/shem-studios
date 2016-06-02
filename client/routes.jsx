@@ -5,9 +5,9 @@ import {mount} from 'react-mounter';
 import {MainLayout} from './layouts/MainLayout.jsx';
 // import HomeWrapper component
 import HomeWrapper from './pages/home/HomeWrapper.jsx';
-import About from './pages/about/About.jsx';
-import Studio from './pages/studio/Studio.jsx';
-import Contact from './pages/contact/Contact.jsx';
+import AboutWrapper from './pages/about/AboutWrapper.jsx';
+import StudioWrapper from './pages/studio/StudioWrapper.jsx';
+import ContactWrapper from './pages/contact/ContactWrapper.jsx';
 
 FlowRouter.route('/', {
   // every route needs an action
@@ -22,7 +22,7 @@ FlowRouter.route('/', {
 FlowRouter.route('/about', {
   action() {
     mount(MainLayout, {
-      content: (<About />)
+      content: (<AboutWrapper />)
     })
   },
 });
@@ -30,7 +30,7 @@ FlowRouter.route('/about', {
 FlowRouter.route('/studio', {
   action() {
     mount(MainLayout, {
-      content: (<Studio />)
+      content: (<StudioWrapper />)
     })
   }
 });
@@ -38,7 +38,7 @@ FlowRouter.route('/studio', {
 FlowRouter.route('/contact', {
   action() {
     mount(MainLayout, {
-      content: (<Contact />)
+      content: (<ContactWrapper />)
     })
   }
 });
