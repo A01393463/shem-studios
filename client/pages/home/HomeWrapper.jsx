@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import HomeBillboard from './HomeBillboard.jsx';
+import HomeMottos from './HomeMottos.jsx';
 
 // App component
 // export so routes can see it
@@ -15,7 +16,10 @@ export default class HomeWrapper extends React.Component {
       //       <h1>Hello</h1>
       //       <h2>World</h2>
       //     </div>
-      <HomeBillboard />
+      <div>
+        <HomeBillboard />
+        <HomeMottos />
+      </div>
     )
   }
 }

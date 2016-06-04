@@ -20,7 +20,8 @@ export const MainLayout = ({content}) => (
 	</div>
 	<div className="collapse navbar-collapse" id="myNavbar">
 	  <ul className="nav navbar-nav">
-	    <li className="active"><a href="/">Home</a></li>
+	    {/*<li className="active"><a href="/">Home</a></li>*/}
+            <li><a href="/">Home</a></li>
 	    <li><a href="/about">About</a></li>
 	    <li><a href="/studio">Studio</a></li>
 	    <li><a href="/contact">Contact</a></li>
