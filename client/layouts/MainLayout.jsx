@@ -39,9 +39,19 @@ export const MainLayout = ({content}) => (
       {content}
     </main>
     
+    <hr/>
+    
     {/* footer */}
-    <footer>
-      <h2>Footer</h2>
+    <footer className="flex-container-column">
+      <div className="text-center social">
+        <ul>
+          <li><a href="#"><i className="fa fa-lg fa-facebook"></i></a></li>
+	  <li><a href="#"><i className="fa fa-lg fa-twitter"></i></a></li>
+	  <li><a href="#"><i className="fa fa-lg fa-google-plus"></i></a></li>
+	  <li><a href="#"><i className="fa fa-lg fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <p className="text-center">&copy; 2016 Shem Studios | All Rights Reserved</p>
     </footer>
   </div>
 )
